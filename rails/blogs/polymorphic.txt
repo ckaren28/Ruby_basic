@@ -1,0 +1,4 @@
+rails g model Comment comment:string commentable:references{polymorphic}
+
+ ---
+ add   has_many :comments, :as => :commentable to others

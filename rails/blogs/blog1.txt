@@ -1,0 +1,1399 @@
+create  app
+create  app/assets/javascripts/application.js
+create  app/assets/stylesheets/application.css
+create  app/controllers/application_controller.rb
+create  app/helpers/application_helper.rb
+create  app/views/layouts/application.html.erb
+create  app/assets/images/.keep
+create  app/mailers/.keep
+create  app/models/.keep
+create  app/controllers/concerns/.keep
+create  app/models/concerns/.keep
+create  bin
+create  bin/bundle
+create  bin/rails
+create  bin/rake
+create  bin/setup
+create  config
+create  config/routes.rb
+create  config/application.rb
+create  config/environment.rb
+create  config/secrets.yml
+create  config/environments
+create  config/environments/development.rb
+create  config/environments/production.rb
+create  config/environments/test.rb
+create  config/initializers
+create  config/initializers/assets.rb
+create  config/initializers/backtrace_silencers.rb
+create  config/initializers/cookies_serializer.rb
+create  config/initializers/filter_parameter_logging.rb
+create  config/initializers/inflections.rb
+create  config/initializers/mime_types.rb
+create  config/initializers/session_store.rb
+create  config/initializers/wrap_parameters.rb
+create  config/locales
+create  config/locales/en.yml
+create  config/boot.rb
+create  config/database.yml
+create  db
+create  db/seeds.rb
+create  lib
+create  lib/tasks
+create  lib/tasks/.keep
+create  lib/assets
+create  lib/assets/.keep
+create  log
+create  log/.keep
+create  public
+create  public/404.html
+create  public/422.html
+create  public/500.html
+create  public/favicon.ico
+create  public/robots.txt
+create  test/fixtures
+create  test/fixtures/.keep
+create  test/controllers
+create  test/controllers/.keep
+create  test/mailers
+create  test/mailers/.keep
+create  test/models
+create  test/models/.keep
+create  test/helpers
+create  test/helpers/.keep
+create  test/integration
+create  test/integration/.keep
+create  test/test_helper.rb
+create  tmp/cache
+create  tmp/cache/assets
+create  vendor/assets/javascripts
+create  vendor/assets/javascripts/.keep
+create  vendor/assets/stylesheets
+create  vendor/assets/stylesheets/.keep
+   run  bundle install
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies.............................................
+Using rake 11.2.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using pkg-config 1.1.7
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using debug_inspector 0.0.2
+Using bundler 1.12.5
+Using byebug 9.0.5
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using multi_json 1.12.1
+Using sass 3.4.22
+Using tilt 2.0.5
+Using spring 1.7.2
+Using sqlite3 1.3.11
+Using turbolinks-source 5.0.0
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.2
+Using sprockets 3.7.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.1
+Using activesupport 4.2.6
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.6
+Using jbuilder 2.6.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.6
+Using activerecord 4.2.6
+Using actionview 4.2.6
+Using actionpack 4.2.6
+Using actionmailer 4.2.6
+Using railties 4.2.6
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.1.1
+Using jquery-rails 4.2.1
+Using rails 4.2.6
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 12 Gemfile dependencies, 57 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+   run  bundle exec spring binstub --all
+* bin/rake: spring inserted
+* bin/rails: spring inserted
+Karens-Air:desktop Karen$ cd blogs/
+Karens-Air:blogs Karen$ atom blogs
+Karens-Air:blogs Karen$ bundle install
+Resolving dependencies...
+Using rake 11.2.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using pkg-config 1.1.7
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using debug_inspector 0.0.2
+Using bundler 1.12.5
+Using byebug 9.0.5
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using hirb 0.7.3
+Using multi_json 1.12.1
+Using sass 3.4.22
+Using tilt 2.0.5
+Using spring 1.7.2
+Using sqlite3 1.3.11
+Using turbolinks-source 5.0.0
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.2
+Using sprockets 3.7.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.1
+Using activesupport 4.2.6
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.6
+Using jbuilder 2.6.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.6
+Using activerecord 4.2.6
+Using actionview 4.2.6
+Using actionpack 4.2.6
+Using actionmailer 4.2.6
+Using railties 4.2.6
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.1.1
+Using jquery-rails 4.2.1
+Using rails 4.2.6
+Using sass-rails 5.0.6
+Using web-console 2.3.0
+Bundle complete! 13 Gemfile dependencies, 58 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+Karens-Air:blogs Karen$ rails g model Blog name:string description:text
+Running via Spring preloader in process 921
+invoke  active_record
+create    db/migrate/20160912141407_create_blogs.rb
+create    app/models/blog.rb
+invoke    test_unit
+create      test/models/blog_test.rb
+create      test/fixtures/blogs.yml
+Karens-Air:blogs Karen$ rails g model Post title:string content:text blog:references
+Running via Spring preloader in process 935
+invoke  active_record
+create    db/migrate/20160912141656_create_posts.rb
+create    app/models/post.rb
+invoke    test_unit
+create      test/models/post_test.rb
+create      test/fixtures/posts.yml
+Karens-Air:blogs Karen$ rails g model Messages author:string message:text post:references
+Running via Spring preloader in process 949
+[WARNING] The model name 'Messages' was recognized as a plural, using the singular 'Message' instead. Override with --force-plural or setup custom inflection rules for this noun before running the generator.
+invoke  active_record
+create    db/migrate/20160912141746_create_messages.rb
+create    app/models/message.rb
+invoke    test_unit
+create      test/models/message_test.rb
+create      test/fixtures/messages.yml
+Karens-Air:blogs Karen$ rake db.migrate
+rake aborted!
+Don't know how to build task 'db.migrate' (see --tasks)
+
+(See full trace by running task with --trace)
+Karens-Air:blogs Karen$ rails c
+Running via Spring preloader in process 977
+Loading development environment (Rails 4.2.6)
+irb(main):001:0> Hirb.enable
+=> true
+irb(main):002:0> reload!
+Reloading...
+=> true
+irb(main):003:0> Blog.create(name:"Coding", description:"how to do some computer stuff")
+SyntaxError: /Users/Karen/Desktop/blogs/app/models/blog.rb:2: syntax error, unexpected ':', expecting keyword_end
+validates: :name, :description, presence: true
+        ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:457:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:457:in `block in load_file'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:647:in `new_constants_in'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:456:in `load_file'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:354:in `require_or_load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:184:in `const_missing'
+from (irb):3
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):004:0> reload!
+Reloading...
+=> true
+irb(main):005:0> Blog.create(name:"Coding", description:"how to do some computer stuff")
+ActiveRecord::StatementInvalid: Could not find table 'blogs'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/sqlite3_adapter.rb:513:in `table_structure'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/sqlite3_adapter.rb:387:in `columns'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/schema_cache.rb:43:in `columns'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/attributes.rb:93:in `columns'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/attributes.rb:98:in `columns_hash'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:205:in `subclass_from_attributes?'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:54:in `new'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:33:in `create'
+from (irb):5
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):006:0> reload!
+Reloading...
+=> true
+irb(main):007:0> exit
+Karens-Air:blogs Karen$ rake db:migrate
+== 20160912141407 CreateBlogs: migrating ======================================
+-- create_table(:blogs)
+-> 0.0027s
+== 20160912141407 CreateBlogs: migrated (0.0034s) =============================
+
+== 20160912141656 CreatePosts: migrating ======================================
+-- create_table(:posts)
+-> 0.0018s
+== 20160912141656 CreatePosts: migrated (0.0019s) =============================
+
+== 20160912141746 CreateMessages: migrating ===================================
+-- create_table(:messages)
+-> 0.0029s
+== 20160912141746 CreateMessages: migrated (0.0030s) ==========================
+
+Karens-Air:blogs Karen$ rails c
+Running via Spring preloader in process 1149
+Loading development environment (Rails 4.2.6)
+irb(main):001:0> Hirb.enable
+=> true
+irb(main):002:0> Blog.create(name:"Coding", description:"computer stuff")
+(0.1ms)  begin transaction
+SQL (1.4ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Coding"], ["description", "computer stuff"], ["created_at", "2016-09-12 15:55:21.423637"], ["updated_at", "2016-09-12 15:55:21.423637"]]
+(0.8ms)  commit transaction
++----+--------+----------------+-----------------------+-----------------------+
+| id | name   | description    | created_at            | updated_at            |
++----+--------+----------------+-----------------------+-----------------------+
+| 1  | Coding | computer stuff | 2016-09-12 15:55:2... | 2016-09-12 15:55:2... |
++----+--------+----------------+-----------------------+-----------------------+
+1 row in set
+irb(main):003:0> Blog.create(name:"Cooking", description:"yummy foods")
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Cooking"], ["description", "yummy foods"], ["created_at", "2016-09-12 15:55:46.078815"], ["updated_at", "2016-09-12 15:55:46.078815"]]
+(6.0ms)  commit transaction
++----+---------+-------------+------------------------+------------------------+
+| id | name    | description | created_at             | updated_at             |
++----+---------+-------------+------------------------+------------------------+
+| 2  | Cooking | yummy foods | 2016-09-12 15:55:46... | 2016-09-12 15:55:46... |
++----+---------+-------------+------------------------+------------------------+
+1 row in set
+irb(main):004:0> Blog.create(name:"Cats", description:"fierce animals")
+(0.2ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Cats"], ["description", "fierce animals"], ["created_at", "2016-09-12 15:56:04.478099"], ["updated_at", "2016-09-12 15:56:04.478099"]]
+(3.4ms)  commit transaction
++----+------+----------------+------------------------+------------------------+
+| id | name | description    | created_at             | updated_at             |
++----+------+----------------+------------------------+------------------------+
+| 3  | Cats | fierce animals | 2016-09-12 15:56:04... | 2016-09-12 15:56:04... |
++----+------+----------------+------------------------+------------------------+
+1 row in set
+irb(main):005:0> Blog.create(name:"California", description:"weeds, women, weather")
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "California"], ["description", "weeds, women, weather"], ["created_at", "2016-09-12 15:56:34.341467"], ["updated_at", "2016-09-12 15:56:34.341467"]]
+(4.3ms)  commit transaction
++----+------------+-------------------+-------------------+--------------------+
+| id | name       | description       | created_at        | updated_at         |
++----+------------+-------------------+-------------------+--------------------+
+| 4  | California | weeds, women, ... | 2016-09-12 15:... | 2016-09-12 15:5... |
++----+------------+-------------------+-------------------+--------------------+
+1 row in set
+irb(main):006:0> Blog.create(name:"Aliens", description:"like stellar and out of this world, and possible some foreign people")
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Aliens"], ["description", "like stellar and out of this world, and possible some foreign people"], ["created_at", "2016-09-12 15:57:14.127172"], ["updated_at", "2016-09-12 15:57:14.127172"]]
+(4.1ms)  commit transaction
++----+--------+---------------------+--------------------+---------------------+
+| id | name   | description         | created_at         | updated_at          |
++----+--------+---------------------+--------------------+---------------------+
+| 5  | Aliens | like stellar and... | 2016-09-12 15:5... | 2016-09-12 15:57... |
++----+--------+---------------------+--------------------+---------------------+
+1 row in set
+irb(main):007:0> Post.create(blog:Blog.find(1), title:"RUBY", content:"Learning models in Ruby")
+SyntaxError: /Users/Karen/Desktop/blogs/app/models/post.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+validates :title, :content presence: true
+                               ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:457:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:457:in `block in load_file'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:647:in `new_constants_in'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:456:in `load_file'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:354:in `require_or_load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:494:in `load_missing_constant'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:184:in `const_missing'
+from (irb):7
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):008:0> reload!
+Reloading...
+=> true
+irb(main):009:0> Post.create(blog:Blog.find(1), title:"RUBY", content:"Learning models in Ruby")
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+(0.1ms)  rollback transaction
+NoMethodError: undefined method `titile' for #<Post:0x007f9ed78b9548>
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/attribute_methods.rb:433:in `method_missing'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validator.rb:149:in `block in validate'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validator.rb:148:in `each'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validator.rb:148:in `validate'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:455:in `public_send'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:455:in `block in make_lambda'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:192:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:192:in `block in simple'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:504:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:504:in `block in call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:504:in `each'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:504:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_validate_callbacks'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validations.rb:399:in `run_validations!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validations/callbacks.rb:113:in `block in run_validations!'
+... 21 levels...
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):010:0> Post.create(blog:Blog.find(1), title:"RUBY", content:"creating models in Ruby")
+irb(main):011:1" '
+irb(main):012:1" "
+irb(main):013:1> "
+irb(main):014:1" "
+irb(main):015:1> reload!
+irb(main):016:1> )
+SyntaxError: (irb):10: syntax error, unexpected tCONSTANT, expecting ')'
+...BY", content:"Learning le:"RUBY", content:"creating models i...
+...                               ^
+(irb):10: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+...ng le:"RUBY", content:"creating models in Ruby")
+...                               ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):017:0> Post.create(blog:Blog.find(1), title:"RUBY", content:"creating models in Ruby")
+irb(main):018:1" )
+irb(main):019:1" "
+irb(main):020:1> reload!
+irb(main):021:1> ]
+SyntaxError: (irb):17: syntax error, unexpected tCONSTANT, expecting ')'
+...BY", content:"Learning le:"RUBY", content:"creating models i...
+...                               ^
+(irb):17: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+...ng le:"RUBY", content:"creating models in Ruby")
+...                               ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):022:0> Post.create(blog:Blog.find(1),title:"RUBY", content:"creating models in Ruby")
+irb(main):023:1" Post.all
+irb(main):024:1" "
+irb(main):025:1> Post.all
+irb(main):026:1> )
+SyntaxError: (irb):22: syntax error, unexpected tCONSTANT, expecting ')'
+...UBY", content:"Learntitle:"RUBY", content:"creating models i...
+...                               ^
+(irb):22: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+...title:"RUBY", content:"creating models in Ruby")
+...                               ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):027:0> Post.all
+Post Load (0.3ms)  SELECT "posts".* FROM "posts"
+=> #<ActiveRecord::Relation []>
+irb(main):028:0> Post.create(title:"Ruby Models", content:"how to make some models using the terminal", blog:Blog.find(1))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+(0.1ms)  rollback transaction
+NoMethodError: undefined method `titile' for #<Post:0x007f9ed5f6c6f8>
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/attribute_methods.rb:433:in `method_missing'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validator.rb:149:in `block in validate'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validator.rb:148:in `each'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validator.rb:148:in `validate'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:455:in `public_send'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:455:in `block in make_lambda'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:192:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:192:in `block in simple'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:504:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:504:in `block in call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:504:in `each'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:504:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/callbacks.rb:778:in `_run_validate_callbacks'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validations.rb:399:in `run_validations!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/validations/callbacks.rb:113:in `block in run_validations!'
+... 21 levels...
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1reload!
+Reloading...
+=> true
+irb(main):030:0> Post.create(title:"Ruby Models", content:"how to make some models using the terminal", blog:Blog.find(1))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("title", "content", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Ruby Models"], ["content", "how to make some models using the terminal"], ["blog_id", 1], ["created_at", "2016-09-12 16:07:50.211096"], ["updated_at", "2016-09-12 16:07:50.211096"]]
+(2.2ms)  commit transaction
++----+-------------+---------------+---------+----------------+----------------+
+| id | title       | content       | blog_id | created_at     | updated_at     |
++----+-------------+---------------+---------+----------------+----------------+
+| 1  | Ruby Models | how to mak... | 1       | 2016-09-12 ... | 2016-09-12 ... |
++----+-------------+---------------+---------+----------------+----------------+
+1 row in set
+irb(main):031:0> Post.create(title:"Ruby Gemss", content:"creating your own libs and other things", blog:Blog.find(1))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+SQL (0.6ms)  INSERT INTO "posts" ("title", "content", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Ruby Gemss"], ["content", "creating your own libs and other things"], ["blog_id", 1], ["created_at", "2016-09-12 16:08:31.611995"], ["updated_at", "2016-09-12 16:08:31.611995"]]
+(4.1ms)  commit transaction
++----+------------+----------------+---------+----------------+----------------+
+| id | title      | content        | blog_id | created_at     | updated_at     |
++----+------------+----------------+---------+----------------+----------------+
+| 2  | Ruby Gemss | creating yo... | 1       | 2016-09-12 ... | 2016-09-12 ... |
++----+------------+----------------+---------+----------------+----------------+
+1 row in set
+irb(main):032:0> Post.create(title:"Panthers", content:"pouncing and on the prowl", blog:Blog.find(3))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 3]]
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("title", "content", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Panthers"], ["content", "pouncing and on the prowl"], ["blog_id", 3], ["created_at", "2016-09-12 16:09:21.842616"], ["updated_at", "2016-09-12 16:09:21.842616"]]
+(5.7ms)  commit transaction
++----+----------+----------------+---------+-----------------+-----------------+
+| id | title    | content        | blog_id | created_at      | updated_at      |
++----+----------+----------------+---------+-----------------+-----------------+
+| 3  | Panthers | pouncing an... | 3       | 2016-09-12 1... | 2016-09-12 1... |
++----+----------+----------------+---------+-----------------+-----------------+
+1 row in set
+irb(main):033:0> Blog.all
+Blog Load (1.3ms)  SELECT "blogs".* FROM "blogs"
++----+------------+-------------------+-------------------+--------------------+
+| id | name       | description       | created_at        | updated_at         |
++----+------------+-------------------+-------------------+--------------------+
+| 1  | Coding     | computer stuff    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 2  | Cooking    | yummy foods       | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 3  | Cats       | fierce animals    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 4  | California | weeds, women, ... | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 5  | Aliens     | like stellar a... | 2016-09-12 15:... | 2016-09-12 15:5... |
++----+------------+-------------------+-------------------+--------------------+
+5 rows in set
+irb(main):034:0> Post.create(title:"Amuse un bouche", content:"pour manger", blog:Blog.find(2))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 2]]
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("title", "content", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Amuse un bouche"], ["content", "pour manger"], ["blog_id", 2], ["created_at", "2016-09-12 16:10:05.969276"], ["updated_at", "2016-09-12 16:10:05.969276"]]
+(2.3ms)  commit transaction
++----+----------------+-------------+---------+---------------+----------------+
+| id | title          | content     | blog_id | created_at    | updated_at     |
++----+----------------+-------------+---------+---------------+----------------+
+| 4  | Amuse un bo... | pour manger | 2       | 2016-09-12... | 2016-09-12 ... |
++----+----------------+-------------+---------+---------------+----------------+
+1 row in set
+irb(main):035:0> Post.create(title:"Beaches", content:"best spots lowkey to surf and chill", blog:Blog.find(4))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 4]]
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("title", "content", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Beaches"], ["content", "best spots lowkey to surf and chill"], ["blog_id", 4], ["created_at", "2016-09-12 16:10:42.984351"], ["updated_at", "2016-09-12 16:10:42.984351"]]
+(3.8ms)  commit transaction
++----+---------+-----------------+---------+-----------------+-----------------+
+| id | title   | content         | blog_id | created_at      | updated_at      |
++----+---------+-----------------+---------+-----------------+-----------------+
+| 5  | Beaches | best spots l... | 4       | 2016-09-12 1... | 2016-09-12 1... |
++----+---------+-----------------+---------+-----------------+-----------------+
+1 row in set
+irb(main):036:0> Post.create(title:"UFO citings", content:"area 9 just expanded", blog:Blog.find(5))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+(0.1ms)  begin transaction
+SQL (0.6ms)  INSERT INTO "posts" ("title", "content", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "UFO citings"], ["content", "area 9 just expanded"], ["blog_id", 5], ["created_at", "2016-09-12 16:11:16.335082"], ["updated_at", "2016-09-12 16:11:16.335082"]]
+(2.2ms)  commit transaction
++----+-------------+---------------+---------+----------------+----------------+
+| id | title       | content       | blog_id | created_at     | updated_at     |
++----+-------------+---------------+---------+----------------+----------------+
+| 6  | UFO citings | area 9 jus... | 5       | 2016-09-12 ... | 2016-09-12 ... |
++----+-------------+---------------+---------+----------------+----------------+
+1 row in set
+irb(main):037:0> Post.create(title:"Trump", content:"we need to get a wall around this odd being", blog:Blog.find(5))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+(0.1ms)  begin transaction
+(0.1ms)  rollback transaction
++----+-------+-----------------------------+---------+------------+------------+
+| id | title | content                     | blog_id | created_at | updated_at |
++----+-------+-----------------------------+---------+------------+------------+
+|    | Trump | we need to get a wall ar... | 5       |            |            |
++----+-------+-----------------------------+---------+------------+------------+
+1 row in set
+irb(main):038:0> Post.create(title:"Sushi", content:"list of all the best sushi places in town", blog:Blog.find(4))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 4]]
+(0.1ms)  begin transaction
+(0.1ms)  rollback transaction
++----+-------+-----------------------------+---------+------------+------------+
+| id | title | content                     | blog_id | created_at | updated_at |
++----+-------+-----------------------------+---------+------------+------------+
+|    | Sushi | list of all the best sus... | 4       |            |            |
++----+-------+-----------------------------+---------+------------+------------+
+1 row in set
+irb(main):039:0> Post.all
+Post Load (1.3ms)  SELECT "posts".* FROM "posts"
++----+---------------+---------------+---------+---------------+---------------+
+| id | title         | content       | blog_id | created_at    | updated_at    |
++----+---------------+---------------+---------+---------------+---------------+
+| 1  | Ruby Models   | how to mak... | 1       | 2016-09-12... | 2016-09-12... |
+| 2  | Ruby Gemss    | creating y... | 1       | 2016-09-12... | 2016-09-12... |
+| 3  | Panthers      | pouncing a... | 3       | 2016-09-12... | 2016-09-12... |
+| 4  | Amuse un b... | pour manger   | 2       | 2016-09-12... | 2016-09-12... |
+| 5  | Beaches       | best spots... | 4       | 2016-09-12... | 2016-09-12... |
+| 6  | UFO citings   | area 9 jus... | 5       | 2016-09-12... | 2016-09-12... |
++----+---------------+---------------+---------+---------------+---------------+
+6 rows in set
+irb(main):040:0> Post.create(title:"Best fad eats", content:"what's in, from food truck spots to sushi dinners", blog:Blog.find(5))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+(0.1ms)  begin transaction
+SQL (0.6ms)  INSERT INTO "posts" ("title", "content", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Best fad eats"], ["content", "what's in, from food truck spots to sushi dinners"], ["blog_id", 5], ["created_at", "2016-09-12 16:14:36.138268"], ["updated_at", "2016-09-12 16:14:36.138268"]]
+(4.0ms)  commit transaction
++----+---------------+---------------+---------+---------------+---------------+
+| id | title         | content       | blog_id | created_at    | updated_at    |
++----+---------------+---------------+---------+---------------+---------------+
+| 7  | Best fad eats | what's in,... | 5       | 2016-09-12... | 2016-09-12... |
++----+---------------+---------------+---------+---------------+---------------+
+1 row in set
+irb(main):041:0> Message.create(author:"Lda", message:"wowwowwow,can't wait to see that...", post:Post.find(1))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+SQL (0.8ms)  INSERT INTO "messages" ("author", "message", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["author", "Lda"], ["message", "wowwowwow,can't wait to see that..."], ["post_id", 1], ["created_at", "2016-09-12 16:15:43.819932"], ["updated_at", "2016-09-12 16:15:43.819932"]]
+(0.9ms)  commit transaction
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 1  | Lda    | wowwowwow,ca... | 1       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+1 row in set
+irb(main):042:0> Message.create(author:"Goda", message:"ew.no.", post:Post.find(1))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+(0.1ms)  rollback transaction
++----+--------+---------+---------+------------+------------+
+| id | author | message | post_id | created_at | updated_at |
++----+--------+---------+---------+------------+------------+
+|    | Goda   | ew.no.  | 1       |            |            |
++----+--------+---------+---------+------------+------------+
+1 row in set
+irb(main):043:0> Message.create(author:"Goda", message:"ew.no.", post:Post.find(1))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+(0.1ms)  rollback transaction
++----+--------+---------+---------+------------+------------+
+| id | author | message | post_id | created_at | updated_at |
++----+--------+---------+---------+------------+------------+
+|    | Goda   | ew.no.  | 1       |            |            |
++----+--------+---------+---------+------------+------------+
+1 row in set
+irb(main):044:0> Message.create(author:"God", message:"ewwwwwwww.no thanks. never..(jk)..(not really.)", post:Post.find(1))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+SQL (0.6ms)  INSERT INTO "messages" ("author", "message", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["author", "God"], ["message", "ewwwwwwww.no thanks. never..(jk)..(not really.)"], ["post_id", 1], ["created_at", "2016-09-12 16:18:02.836676"], ["updated_at", "2016-09-12 16:18:02.836676"]]
+(3.1ms)  commit transaction
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 2  | God    | ewwwwwwww.no... | 1       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+1 row in set
+irb(main):045:0> Message.create(author:a dog", message:"wolf, bark, howl, arf, growl, wine", post:Post.find(1))
+irb(main):046:1" Message.create(author:"a dog", message:"wolf, bark, howl, arf, growl, wine", post:Post.find(1))
+irb(main):047:1" Message.create(author:"a dog", message:"wolf, bark, howl, arf, growl, wine, begstealcheat", post:Post.find(1))
+irb(main):048:1" Message.all
+irb(main):049:1" "
+irb(main):050:1> Message.create(author:"a dog", message:"wolf, bark, howl, arf, growl, wine, begstealcheat", post:Post.find(1))
+irb(main):051:1> Message.all
+irb(main):052:1> }
+SyntaxError: (irb):45: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+Message.create(author:a dog", message:"wolf, bark, howl,...
+                     ^
+(irb):45: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+...te(author:a dog", message:"wolf, bark, howl, arf, growl, win...
+...                               ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):053:0> Message.all
+Message Load (1.3ms)  SELECT "messages".* FROM "messages"
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 1  | Lda    | wowwowwow,ca... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 2  | God    | ewwwwwwww.no... | 1       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+2 rows in set
+irb(main):054:0> Message.create(author:"a dog", message:"wolf, bark, howl, arf, growl, wine, begstealcheat", post:Post.find(1))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+(0.1ms)  begin transaction
+SQL (0.9ms)  INSERT INTO "messages" ("author", "message", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["author", "a dog"], ["message", "wolf, bark, howl, arf, growl, wine, begstealcheat"], ["post_id", 1], ["created_at", "2016-09-12 16:20:48.034128"], ["updated_at", "2016-09-12 16:20:48.034128"]]
+(1.9ms)  commit transaction
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 3  | a dog  | wolf, bark, ... | 1       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+1 row in set
+irb(main):055:0> Post.find(blog:Blog.find(1))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", nil]]
+ActiveRecord::RecordNotFound: Couldn't find Post with 'id'={:blog=>#<Blog id: 1, name: "Coding", description: "computer stuff", created_at: "2016-09-12 15:55:21", updated_at: "2016-09-12 15:55:21">}
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/core.rb:155:in `find'
+from (irb):55
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):056:0> Post.where(blog:Blog.find(1))
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+Post Load (0.4ms)  SELECT "posts".* FROM "posts" WHERE "posts"."blog_id" = 1
++----+-------------+---------------+---------+----------------+----------------+
+| id | title       | content       | blog_id | created_at     | updated_at     |
++----+-------------+---------------+---------+----------------+----------------+
+| 1  | Ruby Models | how to mak... | 1       | 2016-09-12 ... | 2016-09-12 ... |
+| 2  | Ruby Gemss  | creating y... | 1       | 2016-09-12 ... | 2016-09-12 ... |
++----+-------------+---------------+---------+----------------+----------------+
+2 rows in set
+irb(main):057:0> Post.where(blog:Blog.find(5)).order(title: :desc)
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+Post Load (0.3ms)  SELECT "posts".* FROM "posts" WHERE "posts"."blog_id" = 5  ORDER BY "posts"."title" DESC
++----+---------------+---------------+---------+---------------+---------------+
+| id | title         | content       | blog_id | created_at    | updated_at    |
++----+---------------+---------------+---------+---------------+---------------+
+| 6  | UFO citings   | area 9 jus... | 5       | 2016-09-12... | 2016-09-12... |
+| 7  | Best fad eats | what's in,... | 5       | 2016-09-12... | 2016-09-12... |
++----+---------------+---------------+---------+---------------+---------------+
+2 rows in set
+irb(main):058:0> Post.first.find(1)
+Post Load (0.3ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" ASC LIMIT 1
+NoMethodError: undefined method `find' for #<Post:0x007f9ed59c6280>
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activemodel-4.2.6/lib/active_model/attribute_methods.rb:433:in `method_missing'
+from (irb):58
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):059:0> Post.first
+Post Load (1.3ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" ASC LIMIT 1
++----+-------------+---------------+---------+----------------+----------------+
+| id | title       | content       | blog_id | created_at     | updated_at     |
++----+-------------+---------------+---------+----------------+----------------+
+| 1  | Ruby Models | how to mak... | 1       | 2016-09-12 ... | 2016-09-12 ... |
++----+-------------+---------------+---------+----------------+----------------+
+1 row in set
+irb(main):060:0> Post.first.update(title) = "Ruby Mods"
+SyntaxError: (irb):60: syntax error, unexpected '=', expecting end-of-input
+Post.first.update(title) = "Ruby Mods"
+                    ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):061:0> Post.first
+Post Load (0.4ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" ASC LIMIT 1
++----+-------------+---------------+---------+----------------+----------------+
+| id | title       | content       | blog_id | created_at     | updated_at     |
++----+-------------+---------------+---------+----------------+----------------+
+| 1  | Ruby Models | how to mak... | 1       | 2016-09-12 ... | 2016-09-12 ... |
++----+-------------+---------------+---------+----------------+----------------+
+1 row in set
+irb(main):062:0> a = Post.first
+Post Load (0.4ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" ASC LIMIT 1
++----+-------------+---------------+---------+----------------+----------------+
+| id | title       | content       | blog_id | created_at     | updated_at     |
++----+-------------+---------------+---------+----------------+----------------+
+| 1  | Ruby Models | how to mak... | 1       | 2016-09-12 ... | 2016-09-12 ... |
++----+-------------+---------------+---------+----------------+----------------+
+1 row in set
+irb(main):063:0> a.title = "Ruby mods"
+=> "Ruby mods"
+irb(main):064:0> a.save
+(0.2ms)  begin transaction
+SQL (0.5ms)  UPDATE "posts" SET "title" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["title", "Ruby mods"], ["updated_at", "2016-09-12 16:27:34.114529"], ["id", 1]]
+(5.2ms)  commit transaction
+=> true
+irb(main):065:0> reload!
+Reloading...
+=> true
+irb(main):066:0> Post.find(3).destroy
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 3]]
+(0.1ms)  begin transaction
+SQL (0.9ms)  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 3]]
+(0.8ms)  commit transaction
++----+----------+----------------+---------+-----------------+-----------------+
+| id | title    | content        | blog_id | created_at      | updated_at      |
++----+----------+----------------+---------+-----------------+-----------------+
+| 3  | Panthers | pouncing an... | 3       | 2016-09-12 1... | 2016-09-12 1... |
++----+----------+----------------+---------+-----------------+-----------------+
+1 row in set
+irb(main):067:0> Post.all
+Post Load (0.6ms)  SELECT "posts".* FROM "posts"
++----+---------------+---------------+---------+---------------+---------------+
+| id | title         | content       | blog_id | created_at    | updated_at    |
++----+---------------+---------------+---------+---------------+---------------+
+| 1  | Ruby mods     | how to mak... | 1       | 2016-09-12... | 2016-09-12... |
+| 2  | Ruby Gemss    | creating y... | 1       | 2016-09-12... | 2016-09-12... |
+| 4  | Amuse un b... | pour manger   | 2       | 2016-09-12... | 2016-09-12... |
+| 5  | Beaches       | best spots... | 4       | 2016-09-12... | 2016-09-12... |
+| 6  | UFO citings   | area 9 jus... | 5       | 2016-09-12... | 2016-09-12... |
+| 7  | Best fad eats | what's in,... | 5       | 2016-09-12... | 2016-09-12... |
++----+---------------+---------------+---------+---------------+---------------+
+6 rows in set
+irb(main):068:0> Message.all
+Message Load (0.3ms)  SELECT "messages".* FROM "messages"
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 1  | Lda    | wowwowwow,ca... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 2  | God    | ewwwwwwww.no... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 3  | a dog  | wolf, bark, ... | 1       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+3 rows in set
+irb(main):069:0> Message.create(author:"YOMOM", message:"yo idk what you are actually talking about so yeah", posts:Post.find(2))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+ActiveRecord::UnknownAttributeError: unknown attribute 'posts' for Message.
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:59:in `rescue in _assign_attribute'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:54:in `_assign_attribute'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:41:in `block in assign_attributes'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `each'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/attribute_assignment.rb:35:in `assign_attributes'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/core.rb:566:in `init_attributes'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/core.rb:281:in `initialize'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/inheritance.rb:61:in `new'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/persistence.rb:33:in `create'
+from (irb):69
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):070:0> Message.create(author:"YOMOM", mesually talking about so yeah", post:Post.find(2))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+(0.1ms)  begin transaction
+SQL (0.4ms)  INSERT INTO "messages" ("author", "message", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["author", "YOMOM"], ["message", "yo idk what you are actually talking about so yeah"], ["post_id", 2], ["created_at", "2016-09-12 16:32:15.912688"], ["updated_at", "2016-09-12 16:32:15.912688"]]
+(2.1ms)  commit transaction
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 4  | YOMOM  | yo idk what ... | 2       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+1 row in set
+irb(main):071:0> Post.find(2).destroy
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+(0.2ms)  begin transaction
+SQL (0.6ms)  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 2]]
+(2.4ms)  commit transaction
++----+------------+----------------+---------+----------------+----------------+
+| id | title      | content        | blog_id | created_at     | updated_at     |
++----+------------+----------------+---------+----------------+----------------+
+| 2  | Ruby Gemss | creating yo... | 1       | 2016-09-12 ... | 2016-09-12 ... |
++----+------------+----------------+---------+----------------+----------------+
+1 row in set
+irb(main):072:0> Message.all
+Message Load (1.2ms)  SELECT "messages".* FROM "messages"
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 1  | Lda    | wowwowwow,ca... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 2  | God    | ewwwwwwww.no... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 3  | a dog  | wolf, bark, ... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 4  | YOMOM  | yo idk what ... | 2       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+4 rows in set
+irb(main):073:0> reload!
+Reloading...
+=> true
+irb(main):074:0> Message.create(author:"YOMOM", message:"yo idk what you are actually talking about so yeah", post:Post.find(5))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 5]]
+(0.1ms)  begin transaction
+SQL (0.7ms)  INSERT INTO "messages" ("author", "message", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["author", "YOMOM"], ["message", "yo idk what you are actually talking about so yeah"], ["post_id", 5], ["created_at", "2016-09-12 16:34:20.853472"], ["updated_at", "2016-09-12 16:34:20.853472"]]
+(2.2ms)  commit transaction
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 5  | YOMOM  | yo idk what ... | 5       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+1 row in set
+irb(main):075:0> Post.all
+Post Load (1.1ms)  SELECT "posts".* FROM "posts"
++----+---------------+---------------+---------+---------------+---------------+
+| id | title         | content       | blog_id | created_at    | updated_at    |
++----+---------------+---------------+---------+---------------+---------------+
+| 1  | Ruby mods     | how to mak... | 1       | 2016-09-12... | 2016-09-12... |
+| 4  | Amuse un b... | pour manger   | 2       | 2016-09-12... | 2016-09-12... |
+| 5  | Beaches       | best spots... | 4       | 2016-09-12... | 2016-09-12... |
+| 6  | UFO citings   | area 9 jus... | 5       | 2016-09-12... | 2016-09-12... |
+| 7  | Best fad eats | what's in,... | 5       | 2016-09-12... | 2016-09-12... |
++----+---------------+---------------+---------+---------------+---------------+
+5 rows in set
+irb(main):076:0> Blog.all
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs"
++----+------------+-------------------+-------------------+--------------------+
+| id | name       | description       | created_at        | updated_at         |
++----+------------+-------------------+-------------------+--------------------+
+| 1  | Coding     | computer stuff    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 2  | Cooking    | yummy foods       | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 3  | Cats       | fierce animals    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 4  | California | weeds, women, ... | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 5  | Aliens     | like stellar a... | 2016-09-12 15:... | 2016-09-12 15:5... |
++----+------------+-------------------+-------------------+--------------------+
+5 rows in set
+irb(main):077:0> Message.create(author:"YOMOM", message:"yo idk what you are actually talking about so yeah", post:Post.find(3))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 3]]
+ActiveRecord::RecordNotFound: Couldn't find Post with 'id'=3
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activerecord-4.2.6/lib/active_record/core.rb:155:in `find'
+from (irb):77
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1Message.create(author:"YOMOM", message:"yo idk what you are actually talking about so yeah", post:Post.find(4))
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 4]]
+(0.1ms)  begin transaction
+SQL (0.6ms)  INSERT INTO "messages" ("author", "message", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["author", "YOMOM"], ["message", "yo idk what you are actually talking about so yeah"], ["post_id", 4], ["created_at", "2016-09-12 16:35:23.368116"], ["updated_at", "2016-09-12 16:35:23.368116"]]
+(4.9ms)  commit transaction
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 6  | YOMOM  | yo idk what ... | 4       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+1 row in set
+irb(main):079:0> Post.find(4).destroy
+Post Load (0.4ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 4]]
+(0.1ms)  begin transaction
+Message Load (0.2ms)  SELECT "messages".* FROM "messages" WHERE "messages"."post_id" = ?  [["post_id", 4]]
+SQL (0.4ms)  DELETE FROM "messages" WHERE "messages"."id" = ?  [["id", 6]]
+SQL (0.2ms)  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 4]]
+(1.1ms)  commit transaction
++----+----------------+-------------+---------+---------------+----------------+
+| id | title          | content     | blog_id | created_at    | updated_at     |
++----+----------------+-------------+---------+---------------+----------------+
+| 4  | Amuse un bo... | pour manger | 2       | 2016-09-12... | 2016-09-12 ... |
++----+----------------+-------------+---------+---------------+----------------+
+1 row in set
+irb(main):080:0> Message.all
+Message Load (0.4ms)  SELECT "messages".* FROM "messages"
++----+--------+-----------------+---------+-----------------+------------------+
+| id | author | message         | post_id | created_at      | updated_at       |
++----+--------+-----------------+---------+-----------------+------------------+
+| 1  | Lda    | wowwowwow,ca... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 2  | God    | ewwwwwwww.no... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 3  | a dog  | wolf, bark, ... | 1       | 2016-09-12 1... | 2016-09-12 16... |
+| 4  | YOMOM  | yo idk what ... | 2       | 2016-09-12 1... | 2016-09-12 16... |
+| 5  | YOMOM  | yo idk what ... | 5       | 2016-09-12 1... | 2016-09-12 16... |
++----+--------+-----------------+---------+-----------------+------------------+
+5 rows in set
+irb(main):081:0> Blog.all
+Blog Load (1.3ms)  SELECT "blogs".* FROM "blogs"
++----+------------+-------------------+-------------------+--------------------+
+| id | name       | description       | created_at        | updated_at         |
++----+------------+-------------------+-------------------+--------------------+
+| 1  | Coding     | computer stuff    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 2  | Cooking    | yummy foods       | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 3  | Cats       | fierce animals    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 4  | California | weeds, women, ... | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 5  | Aliens     | like stellar a... | 2016-09-12 15:... | 2016-09-12 15:5... |
++----+------------+-------------------+-------------------+--------------------+
+5 rows in set
+irb(main):082:0> Blog.find(>5)
+SyntaxError: (irb):82: syntax error, unexpected '>', expecting ')'
+Blog.find(>5)
+     ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):083:0> Blog.where{id>})
+SyntaxError: (irb):83: syntax error, unexpected '}'
+Blog.where{id>})
+         ^
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):084:0> Blog.where{id>}
+SyntaxError: (irb):84: syntax error, unexpected '}'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):085:0> Blog.where{id>5}
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs"
+=> #<ActiveRecord::QueryMethods::WhereChain:0x007f9ed79d6408 @scope=#<ActiveRecord::Relation [#<Blog id: 1, name: "Coding", description: "computer stuff", created_at: "2016-09-12 15:55:21", updated_at: "2016-09-12 15:55:21">, #<Blog id: 2, name: "Cooking", description: "yummy foods", created_at: "2016-09-12 15:55:46", updated_at: "2016-09-12 15:55:46">, #<Blog id: 3, name: "Cats", description: "fierce animals", created_at: "2016-09-12 15:56:04", updated_at: "2016-09-12 15:56:04">, #<Blog id: 4, name: "California", description: "weeds, women, weather", created_at: "2016-09-12 15:56:34", updated_at: "2016-09-12 15:56:34">, #<Blog id: 5, name: "Aliens", description: "like stellar and out of this world, and possible s...", created_at: "2016-09-12 15:57:14", updated_at: "2016-09-12 15:57:14">]>>
+irb(main):086:0> Hirb.enable
+=> true
+irb(main):087:0> Blog.where{id>5}
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs"
+=> #<ActiveRecord::QueryMethods::WhereChain:0x007f9ed79b7b20 @scope=#<ActiveRecord::Relation [#<Blog id: 1, name: "Coding", description: "computer stuff", created_at: "2016-09-12 15:55:21", updated_at: "2016-09-12 15:55:21">, #<Blog id: 2, name: "Cooking", description: "yummy foods", created_at: "2016-09-12 15:55:46", updated_at: "2016-09-12 15:55:46">, #<Blog id: 3, name: "Cats", description: "fierce animals", created_at: "2016-09-12 15:56:04", updated_at: "2016-09-12 15:56:04">, #<Blog id: 4, name: "California", description: "weeds, women, weather", created_at: "2016-09-12 15:56:34", updated_at: "2016-09-12 15:56:34">, #<Blog id: 5, name: "Aliens", description: "like stellar and out of this world, and possible s...", created_at: "2016-09-12 15:57:14", updated_at: "2016-09-12 15:57:14">]>>
+irb(main):088:0> Blog.where("? > 5", :id)
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs" WHERE ('id' > 5)
++----+------------+-------------------+-------------------+--------------------+
+| id | name       | description       | created_at        | updated_at         |
++----+------------+-------------------+-------------------+--------------------+
+| 1  | Coding     | computer stuff    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 2  | Cooking    | yummy foods       | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 3  | Cats       | fierce animals    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 4  | California | weeds, women, ... | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 5  | Aliens     | like stellar a... | 2016-09-12 15:... | 2016-09-12 15:5... |
++----+------------+-------------------+-------------------+--------------------+
+5 rows in set
+irb(main):089:0> Blog.where("? > 3", :id)
+Blog Load (0.4ms)  SELECT "blogs".* FROM "blogs" WHERE ('id' > 3)
++----+------------+-------------------+-------------------+--------------------+
+| id | name       | description       | created_at        | updated_at         |
++----+------------+-------------------+-------------------+--------------------+
+| 1  | Coding     | computer stuff    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 2  | Cooking    | yummy foods       | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 3  | Cats       | fierce animals    | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 4  | California | weeds, women, ... | 2016-09-12 15:... | 2016-09-12 15:5... |
+| 5  | Aliens     | like stellar a... | 2016-09-12 15:... | 2016-09-12 15:5... |
++----+------------+-------------------+-------------------+--------------------+
+5 rows in set
+irb(main):090:0> Blog.where(:id < 3)
+ArgumentError: comparison of Symbol with 3 failed
+from (irb):90:in `<'
+from (irb):90
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):091:0> Blog.where("id < 3")
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs" WHERE (id < 3)
++----+---------+----------------+----------------------+-----------------------+
+| id | name    | description    | created_at           | updated_at            |
++----+---------+----------------+----------------------+-----------------------+
+| 1  | Coding  | computer stuff | 2016-09-12 15:55:... | 2016-09-12 15:55:2... |
+| 2  | Cooking | yummy foods    | 2016-09-12 15:55:... | 2016-09-12 15:55:4... |
++----+---------+----------------+----------------------+-----------------------+
+2 rows in set
+irb(main):092:0> Blog.where("? < 3", id)
+NameError: undefined local variable or method `id' for main:Object
+from (irb):92
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):093:0> Blog.where("? < 3", "id")
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs" WHERE ('id' < 3)
+=> #<ActiveRecord::Relation []>
+irb(main):094:0> Blog.where("? < 3", ":id")
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs" WHERE (':id' < 3)
+=> #<ActiveRecord::Relation []>
+irb(main):095:0> Blog.where("id < 3")
+Blog Load (0.4ms)  SELECT "blogs".* FROM "blogs" WHERE (id < 3)
++----+---------+----------------+----------------------+-----------------------+
+| id | name    | description    | created_at           | updated_at            |
++----+---------+----------------+----------------------+-----------------------+
+| 1  | Coding  | computer stuff | 2016-09-12 15:55:... | 2016-09-12 15:55:2... |
+| 2  | Cooking | yummy foods    | 2016-09-12 15:55:... | 2016-09-12 15:55:4... |
++----+---------+----------------+----------------------+-----------------------+
+2 rows in set
+irb(main):096:0> Blog.where("? < 3", id)
+NameError: undefined local variable or method `id' for main:Object
+from (irb):96
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:110:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/console.rb:9:in `start'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:68:in `console'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/railties-4.2.6/lib/rails/commands.rb:17:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `block in require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:274:in `require'
+from /Users/Karen/Desktop/blogs/bin/rails:9:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `block in load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:240:in `load_dependency'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/activesupport-4.2.6/lib/active_support/dependencies.rb:268:in `load'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/commands/rails.rb:6:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/command_wrapper.rb:38:in `call'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:191:in `block in serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `fork'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:161:in `serve'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:131:in `block in run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `loop'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application.rb:125:in `run'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/spring-1.7.2/lib/spring/application/boot.rb:19:in `<top (required)>'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from /Users/Karen/.rbenv/versions/2.1.2/lib/ruby/2.1.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+from -e:1:in `<main>'irb(main):097:0> Blog.where("? < 3", :id)
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs" WHERE ('id' < 3)
+=> #<ActiveRecord::Relation []>
+irb(main):098:0> Blog.where("id < ?",3)
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs" WHERE (id < 3)
++----+---------+----------------+----------------------+-----------------------+
+| id | name    | description    | created_at           | updated_at            |
++----+---------+----------------+----------------------+-----------------------+
+| 1  | Coding  | computer stuff | 2016-09-12 15:55:... | 2016-09-12 15:55:2... |
+| 2  | Cooking | yummy foods    | 2016-09-12 15:55:... | 2016-09-12 15:55:4... |
++----+---------+----------------+----------------------+-----------------------+
+2 rows in set
+irb(main):099:0> Blog.where("? < 3", "; drop schema")
+Blog Load (0.3ms)  SELECT "blogs".* FROM "blogs" WHERE ('; drop schema' < 3)
+=> #<ActiveRecord::Relation []>
+irb(main):100:0> 

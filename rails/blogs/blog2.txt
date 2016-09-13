@@ -1,0 +1,526 @@
+from -e:1User.create(first_name: "YOYO", last_name:"MOM", email:"yourmom@email.com")
+(0.1ms)  begin transaction
+SQL (1.3ms)  INSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "YOYO"], ["last_name", "MOM"], ["email", "yourmom@email.com"], ["created_at", "2016-09-12 18:11:51.181999"], ["updated_at", "2016-09-12 18:11:51.181999"]]
+(1.4ms)  commit transaction
++----+------------+-----------+---------------+---------------+----------------+
+| id | first_name | last_name | email         | created_at    | updated_at     |
++----+------------+-----------+---------------+---------------+----------------+
+| 1  | YOYO       | MOM       | yourmom@em... | 2016-09-12... | 2016-09-12 ... |
++----+------------+-----------+---------------+---------------+----------------+
+1 row in set
+irb(main):038:0> User.create(first_name: "SIDFO", last_name:"LSDM", email:"ywaajdsm@email.com")
+(0.1ms)  begin transaction
+SQL (0.4ms)  INSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "SIDFO"], ["last_name", "LSDM"], ["email", "ywaajdsm@email.com"], ["created_at", "2016-09-12 18:12:12.953003"], ["updated_at", "2016-09-12 18:12:12.953003"]]
+(4.2ms)  commit transaction
++----+------------+-----------+---------------+---------------+----------------+
+| id | first_name | last_name | email         | created_at    | updated_at     |
++----+------------+-----------+---------------+---------------+----------------+
+| 2  | SIDFO      | LSDM      | ywaajdsm@e... | 2016-09-12... | 2016-09-12 ... |
++----+------------+-----------+---------------+---------------+----------------+
+1 row in set
+irb(main):039:0> User.create(first_name: "LlsdfO", last_name:"LdfM", email:"yaksdjhfm@email.com")
+(0.2ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "LlsdfO"], ["last_name", "LdfM"], ["email", "yaksdjhfm@email.com"], ["created_at", "2016-09-12 18:12:32.336499"], ["updated_at", "2016-09-12 18:12:32.336499"]]
+(2.5ms)  commit transaction
++----+------------+-----------+---------------+---------------+----------------+
+| id | first_name | last_name | email         | created_at    | updated_at     |
++----+------------+-----------+---------------+---------------+----------------+
+| 3  | LlsdfO     | LdfM      | yaksdjhfm@... | 2016-09-12... | 2016-09-12 ... |
++----+------------+-----------+---------------+---------------+----------------+
+1 row in set
+irb(main):040:0> User.create(first_name: "Oaskd", last_name:"kdjfaM", email:"dlkfjafm@email.com")
+(0.3ms)  begin transaction
+SQL (0.6ms)  INSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "Oaskd"], ["last_name", "kdjfaM"], ["email", "dlkfjafm@email.com"], ["created_at", "2016-09-12 18:12:51.272099"], ["updated_at", "2016-09-12 18:12:51.272099"]]
+(6.0ms)  commit transaction
++----+------------+-----------+---------------+---------------+----------------+
+| id | first_name | last_name | email         | created_at    | updated_at     |
++----+------------+-----------+---------------+---------------+----------------+
+| 4  | Oaskd      | kdjfaM    | dlkfjafm@e... | 2016-09-12... | 2016-09-12 ... |
++----+------------+-----------+---------------+---------------+----------------+
+1 row in set
+irb(main):041:0> User.create(first_name: "DSfd", last_name:"KDSFM", email:"asdm@email.com")
+(0.1ms)  begin transaction
+SQL (1.1ms)  INSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["first_name", "DSfd"], ["last_name", "KDSFM"], ["email", "asdm@email.com"], ["created_at", "2016-09-12 18:13:09.615537"], ["updated_at", "2016-09-12 18:13:09.615537"]]
+(2.4ms)  commit transaction
++----+------------+-----------+---------------+---------------+----------------+
+| id | first_name | last_name | email         | created_at    | updated_at     |
++----+------------+-----------+---------------+---------------+----------------+
+| 5  | DSfd       | KDSFM     | asdm@email... | 2016-09-12... | 2016-09-12 ... |
++----+------------+-----------+---------------+---------------+----------------+
+irb(main):055:0> Blog.create(name:"Llaksd", description:"alskdjf lakjs laldjds")
+   (0.1ms)  begin transaction
+  SQL (1.8ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Llaksd"], ["description", "alskdjf lakjs laldjds"], ["created_at", "2016-09-12 18:20:07.935301"], ["updated_at", "2016-09-12 18:20:07.935301"]]
+   (0.9ms)  commit transaction
++----+--------+---------------------+--------------------+---------------------+
+| id | name   | description         | created_at         | updated_at          |
++----+--------+---------------------+--------------------+---------------------+
+| 1  | Llaksd | alskdjf lakjs la... | 2016-09-12 18:2... | 2016-09-12 18:20... |
++----+--------+---------------------+--------------------+---------------------+
+1 row in set
+irb(main):056:0> Blog.create(name:"SDKJd", description:"asdfasdfa sdfasdfasdfa alskdjf lakjs laldjds")
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "SDKJd"], ["description", "asdfasdfa sdfasdfasdfa alskdjf lakjs laldjds"], ["created_at", "2016-09-12 18:20:45.764765"], ["updated_at", "2016-09-12 18:20:45.764765"]]
+   (2.6ms)  commit transaction
++----+-------+---------------------+---------------------+---------------------+
+| id | name  | description         | created_at          | updated_at          |
++----+-------+---------------------+---------------------+---------------------+
+| 2  | SDKJd | asdfasdfa sdfasd... | 2016-09-12 18:20... | 2016-09-12 18:20... |
++----+-------+---------------------+---------------------+---------------------+
+1 row in set
+irb(main):057:0> Blog.create(name:"Haverdash", description:"wejasdljaldjds")
+   (0.2ms)  begin transaction
+  SQL (1.3ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Haverdash"], ["description", "wejasdljaldjds"], ["created_at", "2016-09-12 18:21:09.097052"], ["updated_at", "2016-09-12 18:21:09.097052"]]
+   (2.6ms)  commit transaction
++----+-----------+----------------+---------------------+----------------------+
+| id | name      | description    | created_at          | updated_at           |
++----+-----------+----------------+---------------------+----------------------+
+| 3  | Haverdash | wejasdljaldjds | 2016-09-12 18:21... | 2016-09-12 18:21:... |
++----+-----------+----------------+---------------------+----------------------+
+1 row in set
+irb(main):058:0> Blog.create(name:"Lamelamelamelaemish", description:"okokokokokokokokokojds")
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Lamelamelamelaemish"], ["description", "okokokokokokokokokojds"], ["created_at", "2016-09-12 18:21:30.955381"], ["updated_at", "2016-09-12 18:21:30.955381"]]
+   (2.7ms)  commit transaction
++----+------------------+-----------------+-----------------+------------------+
+| id | name             | description     | created_at      | updated_at       |
++----+------------------+-----------------+-----------------+------------------+
+| 4  | Lamelamelamel... | okokokokokok... | 2016-09-12 1... | 2016-09-12 18... |
++----+------------------+-----------------+-----------------+------------------+
+1 row in set
+irb(main):059:0> Blog.create(name:"LKJE DJ LDdLKJSD h", description:"imtypeingwithmyeyesclosedrnds")
+   (0.2ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "blogs" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "LKJE DJ LDdLKJSD h"], ["description", "imtypeingwithmyeyesclosedrnds"], ["created_at", "2016-09-12 18:21:59.762612"], ["updated_at", "2016-09-12 18:21:59.762612"]]
+   (2.3ms)  commit transaction
++----+------------------+-----------------+-----------------+------------------+
+| id | name             | description     | created_at      | updated_at       |
++----+------------------+-----------------+-----------------+------------------+
+| 5  | LKJE DJ LDdLK... | imtypeingwit... | 2016-09-12 1... | 2016-09-12 18... |
++----+------------------+-----------------+-----------------+------------------+
+1 row in set
+
+Owner Load (2.1ms)  SELECT "owners".* FROM "owners"
+=> #<ActiveRecord::Relation []>
+irb(main):068:0> Owner.create(user:User.find(1), blog:Blog.find(3))
+ User Load (0.4ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+ Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 3]]
+  (0.1ms)  begin transaction
+ SQL (1.3ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 1], ["blog_id", 3], ["created_at", "2016-09-12 18:30:26.687840"], ["updated_at", "2016-09-12 18:30:26.687840"]]
+  (1.4ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 1  | 3       | 1       | 2016-09-12 18:30:26 UTC | 2016-09-12 18:30:26 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):004:0> Blog.find(1).owners.create
+  Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs"
+   WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+   (0.1ms)  begin transaction
+  SQL (1.0ms)  INSERT INTO "owners" ("blog_id", "created_at", "updated_at") VALUES (?, ?, ?)  [["blog_id", 1], ["created_at", "2016-09-12 18:49:34.882162"], ["updated_at", "2016-09-12 18:49:34.882162"]]
+   (1.0ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 2  | 1       |         | 2016-09-12 18:49:34 UTC | 2016-09-12 18:49:34 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):005:0> Owner.create(user:User.find(1), blog:Blog.find(1))
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Blog Load (0.1ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 1], ["blog_id", 1], ["created_at", "2016-09-12 18:51:14.096517"], ["updated_at", "2016-09-12 18:51:14.096517"]]
+   (2.9ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 3  | 1       | 1       | 2016-09-12 18:51:14 UTC | 2016-09-12 18:51:14 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):006:0> Owner.create(user:User.find(1), blog:Blog.find(2))
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Blog Load (0.1ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 2]]
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 1], ["blog_id", 2], ["created_at", "2016-09-12 18:51:18.930167"], ["updated_at", "2016-09-12 18:51:18.930167"]]
+   (5.3ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 4  | 2       | 1       | 2016-09-12 18:51:18 UTC | 2016-09-12 18:51:18 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):007:0> Owner.all
+  Owner Load (1.1ms)  SELECT "owners".* FROM "owners"
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 1  | 3       | 1       | 2016-09-12 18:30:26 UTC | 2016-09-12 18:30:26 UTC |
+| 2  | 1       |         | 2016-09-12 18:49:34 UTC | 2016-09-12 18:49:34 UTC |
+| 3  | 1       | 1       | 2016-09-12 18:51:14 UTC | 2016-09-12 18:51:14 UTC |
+| 4  | 2       | 1       | 2016-09-12 18:51:18 UTC | 2016-09-12 18:51:18 UTC |
++----+---------+---------+-------------------------+-------------------------+
+4 rows in set
+irb(main):008:0> Owner.create(user:User.find(2), blog:Blog.find(2))
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Blog Load (0.1ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 2]]
+   (0.2ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 2], ["blog_id", 2], ["created_at", "2016-09-12 18:51:49.953313"], ["updated_at", "2016-09-12 18:51:49.953313"]]
+   (2.7ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 5  | 2       | 2       | 2016-09-12 18:51:49 UTC | 2016-09-12 18:51:49 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):009:0> Owner.create(user:User.find(2), blog:Blog.find(4))
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 4]]
+   (0.1ms)  begin transaction
+  SQL (0.6ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 2], ["blog_id", 4], ["created_at", "2016-09-12 18:52:01.417002"], ["updated_at", "2016-09-12 18:52:01.417002"]]
+   (4.4ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 6  | 4       | 2       | 2016-09-12 18:52:01 UTC | 2016-09-12 18:52:01 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):010:0> Owner.create(user:User.find(5), blog:Blog.find(5))
+  User Load (0.3ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Blog Load (0.1ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 5], ["blog_id", 5], ["created_at", "2016-09-12 18:52:20.000442"], ["updated_at", "2016-09-12 18:52:20.000442"]]
+   (8.2ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 7  | 5       | 5       | 2016-09-12 18:52:20 UTC | 2016-09-12 18:52:20 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+
+User Load (0.4ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+ Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 1]]
+  (0.3ms)  begin transaction
+ SQL (0.6ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 3], ["blog_id", 1], ["created_at", "2016-09-12 19:04:03.407645"], ["updated_at", "2016-09-12 19:04:03.407645"]]
+  (2.4ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 8  | 1       | 3       | 2016-09-12 19:04:03 UTC | 2016-09-12 19:04:03 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):023:0> Owner.create(user:User.find(3), blog:Blog.find(2))
+ User Load (0.3ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+ Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 2]]
+  (0.2ms)  begin transaction
+ SQL (0.5ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 3], ["blog_id", 2], ["created_at", "2016-09-12 19:04:15.853590"], ["updated_at", "2016-09-12 19:04:15.853590"]]
+  (8.0ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 9  | 2       | 3       | 2016-09-12 19:04:15 UTC | 2016-09-12 19:04:15 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):024:0> Owner.create(user:User.find(3), blog:Blog.find(3))
+ User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+ Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 3]]
+  (0.1ms)  begin transaction
+ SQL (0.5ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 3], ["blog_id", 3], ["created_at", "2016-09-12 19:04:22.428796"], ["updated_at", "2016-09-12 19:04:22.428796"]]
+  (9.8ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 10 | 3       | 3       | 2016-09-12 19:04:22 UTC | 2016-09-12 19:04:22 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):025:0> Owner.create(user:User.find(3), blog:Blog.find(4))
+ User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+ Blog Load (0.1ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 4]]
+  (0.1ms)  begin transaction
+ SQL (0.5ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 3], ["blog_id", 4], ["created_at", "2016-09-12 19:04:31.075081"], ["updated_at", "2016-09-12 19:04:31.075081"]]
+  (2.4ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 11 | 4       | 3       | 2016-09-12 19:04:31 UTC | 2016-09-12 19:04:31 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+irb(main):026:0> Owner.create(user:User.find(3), blog:Blog.find(5))
+ User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+ Blog Load (0.1ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+  (0.1ms)  begin transaction
+ SQL (0.5ms)  INSERT INTO "owners" ("user_id", "blog_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["user_id", 3], ["blog_id", 5], ["created_at", "2016-09-12 19:04:35.851871"], ["updated_at", "2016-09-12 19:04:35.851871"]]
+  (10.7ms)  commit transaction
++----+---------+---------+-------------------------+-------------------------+
+| id | blog_id | user_id | created_at              | updated_at              |
++----+---------+---------+-------------------------+-------------------------+
+| 12 | 5       | 3       | 2016-09-12 19:04:35 UTC | 2016-09-12 19:04:35 UTC |
++----+---------+---------+-------------------------+-------------------------+
+1 row in set
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("user_id", "blog_id", "title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 1], ["blog_id", 2], ["title", "Oejralksdjf al;kdjflakdsjfaldsjflakjsdfaljsdlfkajsdfl;kajsdfl askjdf;laksdjf laksdjfal;ksdjf al;ksdjf l;asjdflak;djsl;fakjsd lfkasj"], ["content", "asdfjdadldasdfa sdkjfakdsjf alkdakjdsladflajd"], ["created_at", "2016-09-12 19:26:44.150598"], ["updated_at", "2016-09-12 19:26:44.150598"]]
+ (2.2ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | title         | content       | blog_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 3  | Oejralksdj... | asdfjdadld... | 2       | 2016-09-12... | 2016-09-12 ... | 1       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):011:0> Post.create(user:User.find(2), blog:Blog.find(5), title:"dasdfadjjjjjjjsj", content:"asdfjdadldasdfa sdkjfakdsjf alkdakjdsladflajd")
+User Load (0.3ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Blog Load (0.1ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+ (0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("user_id", "blog_id", "title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 2], ["blog_id", 5], ["title", "dasdfadjjjjjjjsj"], ["content", "asdfjdadldasdfa sdkjfakdsjf alkdakjdsladflajd"], ["created_at", "2016-09-12 19:27:50.410600"], ["updated_at", "2016-09-12 19:27:50.410600"]]
+ (2.2ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | title         | content       | blog_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 4  | dasdfadjjj... | asdfjdadld... | 5       | 2016-09-12... | 2016-09-12 ... | 2       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):012:0> Post.create(user:User.find(2), blog:Blog.find(5), title:"bbbbbbbbbbjjsj", content:"LELWLEKJLWLLLLLLLLLLL alkdakjdsladflajd")
+User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+ (0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("user_id", "blog_id", "title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 2], ["blog_id", 5], ["title", "bbbbbbbbbbjjsj"], ["content", "LELWLEKJLWLLLLLLLLLLL alkdakjdsladflajd"], ["created_at", "2016-09-12 19:28:12.708076"], ["updated_at", "2016-09-12 19:28:12.708076"]]
+ (7.4ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | title         | content       | blog_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 5  | bbbbbbbbbb... | LELWLEKJLW... | 5       | 2016-09-12... | 2016-09-12 ... | 2       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):013:0> Post.create(user:User.find(2), blog:Blog.find(5), title:"ccccccccccccj", content:"wereawererwewerflajd")
+User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+ (0.2ms)  begin transaction
+SQL (0.4ms)  INSERT INTO "posts" ("user_id", "blog_id", "title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 2], ["blog_id", 5], ["title", "ccccccccccccj"], ["content", "wereawererwewerflajd"], ["created_at", "2016-09-12 19:28:31.698525"], ["updated_at", "2016-09-12 19:28:31.698525"]]
+ (7.8ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | title         | content       | blog_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 6  | ccccccccccccj | wereawerer... | 5       | 2016-09-12... | 2016-09-12 ... | 2       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):014:0> Post.create(user:User.find(2), blog:Blog.find(5), title:"ddddddddddcccj", content:"ertlerjterjterjlajd")
+User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+ (0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("user_id", "blog_id", "title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 2], ["blog_id", 5], ["title", "ddddddddddcccj"], ["content", "ertlerjterjterjlajd"], ["created_at", "2016-09-12 19:28:52.762934"], ["updated_at", "2016-09-12 19:28:52.762934"]]
+ (6.6ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | title         | content       | blog_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 7  | dddddddddd... | ertlerjter... | 5       | 2016-09-12... | 2016-09-12 ... | 2       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):015:0> Post.create(user:User.find(2), blog:Blog.find(5), title:"eeeeeeeeeeeecccj", content:"wekjr ael laejakej lldjflajd rjterjlajd")
+User Load (0.4ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 5]]
+ (0.1ms)  begin transaction
+SQL (1.1ms)  INSERT INTO "posts" ("user_id", "blog_id", "title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 2], ["blog_id", 5], ["title", "eeeeeeeeeeeecccj"], ["content", "wekjr ael laejakej lldjflajd rjterjlajd"], ["created_at", "2016-09-12 19:29:13.497152"], ["updated_at", "2016-09-12 19:29:13.497152"]]
+ (3.1ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | title         | content       | blog_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 8  | eeeeeeeeee... | wekjr ael ... | 5       | 2016-09-12... | 2016-09-12 ... | 2       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):016:0> Post.create(user:User.find(3), blog:Blog.first, title:"gggggcccj", content:"wekjr ael laejakej lldjflajd rjterjlajd")
+User Load (0.3ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs"  ORDER BY "blogs"."id" ASC LIMIT 1
+ (0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("user_id", "blog_id", "title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 3], ["blog_id", 1], ["title", "gggggcccj"], ["content", "wekjr ael laejakej lldjflajd rjterjlajd"], ["created_at", "2016-09-12 19:30:24.313580"], ["updated_at", "2016-09-12 19:30:24.313580"]]
+ (1.1ms)  commit transaction
++----+-----------+----------------+---------+-----------------+-----------------+---------+
+| id | title     | content        | blog_id | created_at      | updated_at      | user_id |
++----+-----------+----------------+---------+-----------------+-----------------+---------+
+| 9  | gggggcccj | wekjr ael l... | 1       | 2016-09-12 1... | 2016-09-12 1... | 3       |
++----+-----------+----------------+---------+-----------------+-----------------+---------+
+1 row in set
+irb(main):017:0> Post.create(user:User.find(3), blog:Blog.find(4), title:"hhhhhcccj", content:"wekjr ael laejakej lldjflajd rjterjlajd")
+User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 4]]
+ (0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "posts" ("user_id", "blog_id", "title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 3], ["blog_id", 4], ["title", "hhhhhcccj"], ["content", "wekjr ael laejakej lldjflajd rjterjlajd"], ["created_at", "2016-09-12 19:30:49.223262"], ["updated_at", "2016-09-12 19:30:49.223262"]]
+ (6.0ms)  commit transaction
++----+-----------+----------------+---------+-----------------+-----------------+---------+
+| id | title     | content        | blog_id | created_at      | updated_at      | user_id |
++----+-----------+----------------+---------+-----------------+-----------------+---------+
+| 10 | hhhhhcccj | wekjr ael l... | 4       | 2016-09-12 1... | 2016-09-12 1... | 3       |
++----+-----------+----------------+---------+-----------------+-----------------+---------+
+1 row in set
+irb(main):018:0>
+Karens-Air:blogs Karen$ rails g migration add_user_to_message user:references
+Running via Spring preloader in process 1549
+      invoke  active_record
+      create    db/migrate/20160912193421_add_user_to_message.rb
+Karens-Air:blogs Karen$ rake db:migrate
+== 20160912193421 AddUserToMessage: migrating =================================
+-- add_reference(:messages, :user, {:index=>true, :foreign_key=>true})
+   -> 0.0036s
+== 20160912193421 AddUserToMessage: migrated (0.0037s) ========================
+
+Karens-Air:blogs Karen$ rails c
+Running via Spring preloader in process 1578
+Loading development environment (Rails 4.2.6)
+irb(main):001:0> Message.create(user:User.find(3), post:Post.first, author:"sldsldfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Post Load (0.3ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" ASC LIMIT 1
+   (0.1ms)  begin transaction
+  SQL (0.7ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 3], ["post_id", 1], ["author", "sldsldfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:35:45.786767"], ["updated_at", "2016-09-12 19:35:45.786767"]]
+   (3.5ms)  commit transaction
+=> #<Message id: 1, author: "sldsldfj", message: "alksjdf adjkld lkajd lka d", post_id: 1, created_at: "2016-09-12 19:35:45", updated_at: "2016-09-12 19:35:45", user_id: 3>
+irb(main):002:0> Hirb.enable
+=> true
+irb(main):003:0> Message.create(user:User.find(3), post:Post.first, author:"AAAAAAfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Post Load (0.3ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" ASC LIMIT 1
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 3], ["post_id", 1], ["author", "AAAAAAfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:36:04.847388"], ["updated_at", "2016-09-12 19:36:04.847388"]]
+   (7.8ms)  commit transaction
++----+----------+-----------------+---------+-----------------+-----------------+---------+
+| id | author   | message         | post_id | created_at      | updated_at      | user_id |
++----+----------+-----------------+---------+-----------------+-----------------+---------+
+| 2  | AAAAAAfj | alksjdf adjk... | 1       | 2016-09-12 1... | 2016-09-12 1... | 3       |
++----+----------+-----------------+---------+-----------------+-----------------+---------+
+1 row in set
+irb(main):004:0> Message.create(user:User.find(3), post:Post.first, author:"SDFSDDFDSDAfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Post Load (0.3ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" ASC LIMIT 1
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 3], ["post_id", 1], ["author", "SDFSDDFDSDAfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:36:14.038273"], ["updated_at", "2016-09-12 19:36:14.038273"]]
+   (2.6ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | author        | message       | post_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 3  | SDFSDDFDSDAfj | alksjdf ad... | 1       | 2016-09-12... | 2016-09-12 ... | 3       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):005:0> Message.create(user:User.find(3), post:Post.find(2), author:"SDFSDDFDSDAfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.4ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Post Load (0.3ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 3], ["post_id", 2], ["author", "SDFSDDFDSDAfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:36:29.022055"], ["updated_at", "2016-09-12 19:36:29.022055"]]
+   (10.5ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | author        | message       | post_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 4  | SDFSDDFDSDAfj | alksjdf ad... | 2       | 2016-09-12... | 2016-09-12 ... | 3       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):006:0> Message.create(user:User.find(3), post:Post.find(2), author:"OKOKOOKSDAfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Post Load (0.4ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 3], ["post_id", 2], ["author", "OKOKOOKSDAfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:36:42.917759"], ["updated_at", "2016-09-12 19:36:42.917759"]]
+   (6.8ms)  commit transaction
++----+--------------+----------------+---------+---------------+----------------+---------+
+| id | author       | message        | post_id | created_at    | updated_at     | user_id |
++----+--------------+----------------+---------+---------------+----------------+---------+
+| 5  | OKOKOOKSDAfj | alksjdf adj... | 2       | 2016-09-12... | 2016-09-12 ... | 3       |
++----+--------------+----------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):007:0> Message.create(user:User.find(3), post:Post.find(2), author:"NOOOOOOAfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 3], ["post_id", 2], ["author", "NOOOOOOAfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:36:52.380766"], ["updated_at", "2016-09-12 19:36:52.380766"]]
+   (5.8ms)  commit transaction
++----+------------+----------------+---------+----------------+-----------------+---------+
+| id | author     | message        | post_id | created_at     | updated_at      | user_id |
++----+------------+----------------+---------+----------------+-----------------+---------+
+| 6  | NOOOOOOAfj | alksjdf adj... | 2       | 2016-09-12 ... | 2016-09-12 1... | 3       |
++----+------------+----------------+---------+----------------+-----------------+---------+
+1 row in set
+irb(main):008:0> Message.create(user:User.find(4), post:Post.last, author:"RababsdadOOAfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  Post Load (0.3ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" DESC LIMIT 1
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 4], ["post_id", 10], ["author", "RababsdadOOAfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:37:24.788414"], ["updated_at", "2016-09-12 19:37:24.788414"]]
+   (5.7ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | author        | message       | post_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 7  | RababsdadO... | alksjdf ad... | 10      | 2016-09-12... | 2016-09-12 ... | 4       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):009:0> Message.create(user:User.find(4), post:Post.last, author:"ejLWKEJAfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  Post Load (0.2ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" DESC LIMIT 1
+   (0.1ms)  begin transaction
+  SQL (1.3ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 4], ["post_id", 10], ["author", "ejLWKEJAfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:37:38.675086"], ["updated_at", "2016-09-12 19:37:38.675086"]]
+   (9.2ms)  commit transaction
++----+------------+----------------+---------+----------------+-----------------+---------+
+| id | author     | message        | post_id | created_at     | updated_at      | user_id |
++----+------------+----------------+---------+----------------+-----------------+---------+
+| 8  | ejLWKEJAfj | alksjdf adj... | 10      | 2016-09-12 ... | 2016-09-12 1... | 4       |
++----+------------+----------------+---------+----------------+-----------------+---------+
+1 row in set
+irb(main):010:0> Message.create(user:User.find(4), post:Post.last, author:"WLAKDJFSD DJAfj", message:"alksjdf adjkld lkajd lka d")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 4]]
+  Post Load (0.3ms)  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" DESC LIMIT 1
+   (0.1ms)  begin transaction
+  SQL (0.5ms)  INSERT INTO "messages" ("user_id", "post_id", "author", "message", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["user_id", 4], ["post_id", 10], ["author", "WLAKDJFSD DJAfj"], ["message", "alksjdf adjkld lkajd lka d"], ["created_at", "2016-09-12 19:37:47.972349"], ["updated_at", "2016-09-12 19:37:47.972349"]]
+   (9.5ms)  commit transaction
++----+---------------+---------------+---------+---------------+----------------+---------+
+| id | author        | message       | post_id | created_at    | updated_at     | user_id |
++----+---------------+---------------+---------+---------------+----------------+---------+
+| 9  | WLAKDJFSD ... | alksjdf ad... | 10      | 2016-09-12... | 2016-09-12 ... | 4       |
++----+---------------+---------------+---------+---------------+----------------+---------+
+1 row in set
+irb(main):011:0> Post.update(owner
+-------
+
+
+
+
+
+
+
+
+irb(main):011:0> Post.update(2, user:User.last)
+  User Load (0.4ms)  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+   (0.1ms)  begin transaction
+  SQL (0.8ms)  UPDATE "posts" SET "user_id" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["user_id", 5], ["updated_at", "2016-09-12 19:42:25.527350"], ["id", 2]]
+   (2.1ms)  commit transaction
++----+-------------+---------------+---------+----------------+-----------------+---------+
+| id | title       | content       | blog_id | created_at     | updated_at      | user_id |
++----+-------------+---------------+---------+----------------+-----------------+---------+
+| 2  | IUoeewasasj | akjdsladflajd | 2       | 2016-09-12 ... | 2016-09-12 1... | 5       |
++----+-------------+---------------+---------+----------------+-----------------+---------+
+1 row in set
+Post.update(2, content: "TOYOUSOYOUknowitscha  Post Load (0.2ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 2]]
+   (0.1ms)  begin transaction
+  SQL (1.6ms)  UPDATE "posts" SET "content" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["content", "TOYOUSOYOUknowitschanged"], ["updated_at", "2016-09-12 19:44:10.212467"], ["id", 2]]
+   (2.2ms)  commit transaction
++----+-------------+----------------+---------+----------------+----------------+---------+
+| id | title       | content        | blog_id | created_at     | updated_at     | user_id |
++----+-------------+----------------+---------+----------------+----------------+---------+
+| 2  | IUoeewasasj | TOYOUSOYOUk... | 2       | 2016-09-12 ... | 2016-09-12 ... | 5       |
++----+-------------+----------------+---------+----------------+----------------+---------+
+1 row in set
+Blog.find(2).posts.joins(:messages).joins(:user).select("*")
+ Blog Load (0.2ms)  SELECT  "blogs".* FROM "blogs" WHERE "blogs"."id" = ? LIMIT 1  [["id", 2]]
+ Post Load (0.6ms)  SELECT * FROM "posts" INNER JOIN "messages" ON "messages"."post_id" = "posts"."id" INNER JOIN "users" ON "users"."id" = "posts"."user_id" WHERE "posts"."blog_id" = ?  [["blog_id", 2]]
++----+------+------+------+------+------+-------+------+------+------+------+------+------+
+| id | titl | cont | blog | crea | upda | us... | auth | mess | post | firs | last | emai |
++----+------+------+------+------+------+-------+------+------+------+------+------+------+
+| 1  | kssd | lkjs | 2    | 2016 | 2016 | 3     | slds | alks | 1    | YOYO | MOM  | your |
+| 1  | kssd | lkjs | 2    | 2016 | 2016 | 3     | AAAA | alks | 1    | YOYO | MOM  | your |
+| 1  | kssd | lkjs | 2    | 2016 | 2016 | 3     | SDFS | alks | 1    | YOYO | MOM  | your |
+| 5  | IUoe | TOYO | 2    | 2016 | 2016 | 3     | SDFS | alks | 2    | DSfd | KDSF | asdm |
+| 5  | IUoe | TOYO | 2    | 2016 | 2016 | 3     | OKOK | alks | 2    | DSfd | KDSF | asdm |
+| 5  | IUoe | TOYO | 2    | 2016 | 2016 | 3     | NOOO | alks | 2    | DSfd | KDSF | asdm |
++----+------+------+------+------+------+-------+------+------+------+------+------+------+
+6 rows in set
+irb(main):052:0>
+irb(main):052:0> Blog.first.owners.joins(:user).select("*")
+  Blog Load (0.3ms)  SELECT  "blogs".* FROM "blogs"  ORDER BY "blogs"."id" ASC LIMIT 1
+  Owner Load (0.3ms)  SELECT * FROM "owners" INNER JOIN "users" ON "users"."id" = "owners"."user_id" WHERE "owners"."blog_id" = ?  [["blog_id", 1]]
++----+---------+---------+------------+-------------+------------+-----------+------------+
+| id | blog_id | user_id | created_at | updated_at  | first_name | last_name | email      |
++----+---------+---------+------------+-------------+------------+-----------+------------+
+| 1  | 1       | 1       | 2016-09... | 2016-09-... | YOYO       | MOM       | yourmom... |
+| 3  | 1       | 3       | 2016-09... | 2016-09-... | LlsdfO     | LdfM      | yaksdjh... |
++----+---------+---------+------------+-------------+------------+-----------+------------+
+2 rows in set

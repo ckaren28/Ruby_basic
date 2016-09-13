@@ -1,0 +1,6 @@
+
+<form action='/users/create' method='get'>
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  <input type='text' name='name' value="<%= @user.name %>"/>
+  <input type='submit' value='Edit'>
+</form>

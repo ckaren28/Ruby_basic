@@ -1,0 +1,4 @@
+User.create(first_name:"K", last_name:"C")
+User.create(first_name:"lkdsjf", last_name:"aaes")
+Friendship.create(user:User.first, friend:User.find(2))
+User.where("id not in (?)", User.first.friends.select("id"))

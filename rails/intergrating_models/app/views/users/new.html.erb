@@ -1,0 +1,7 @@
+<h1>Create new user</h1>
+    <form action='/users/' method='post'>
+      <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+      <input type='text' name='name' />
+
+      <input type='submit' value='Create' />
+    </form>

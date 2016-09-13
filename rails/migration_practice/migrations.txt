@@ -1,0 +1,8 @@
+rails new migration_practice
+rails g migration users_table
+rake db:migrate
+rails g migration update_users_name
+rails g migration users_new_column_friends
+rake db:migrate
+ rake db:rollback
+  rails g model model_name
