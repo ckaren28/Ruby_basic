@@ -1,0 +1,15 @@
+<h2>Welcome to the Great Number Game!</h2>
+<p> I am thinking of a number from 1 and 100</p>
+<p> Take a guess!</p>
+
+<div class = "red">
+<% if flash[:message] %>
+    <%= flash[:message] %>
+<% end %>
+</div>
+
+<form action = '/numbers/main' method="post">
+     <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    <input type="text" name='num'>
+    <input type="submit" value="Submit">
+</form>

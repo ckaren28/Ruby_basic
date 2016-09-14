@@ -1,0 +1,45 @@
+Your Gold <div class='score'><%=session[:gold]%></div>
+<div class = "farm">
+    <h3>Farm</h3>
+    <p> (earns 10-20 golds)</p>
+    <form action='rpg/farm' method='post'>
+         <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+        <input type="submit" value="Find Gold!">
+    </form>
+</div>
+<div class = "house">
+    <h3>House</h3>
+    <p> (earns 2-5 golds)</p>
+    <form action='rpg/house' method='post'>
+         <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+        <input type="submit" value="Find Gold!">
+    </form>
+</div>
+<div class = "cave">
+    <h3>Cave</h3>
+    <p> (earns 5-10 golds)</p>
+    <form action='rpg/cave' method='post'>
+         <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+        <input type="submit" value="Find Gold!">
+    </form>
+</div>
+<div class = "casino">
+    <h3>Casino</h3>
+    <p> (earns/takes 0-50 golds)</p>
+    <form action='rpg/casino' method='post'>
+         <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+        <input type="submit" value="Find Gold!">
+    </form>
+</div><br>
+
+Activities:
+<div class='log'>
+    <% for x in (0...session[:log].length)%>
+        <p class="<%=session[:color][x]%>" >
+       <%=session[:log][x]%></p>
+     <% end%>
+</div><br>
+<form action='/reset' method='post'>
+     <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    <input type="submit" value="reset">
+</form>

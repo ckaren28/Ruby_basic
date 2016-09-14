@@ -1,0 +1,8 @@
+Random Word (attempt #<%=session[:count]%>)
+<div class= 'rand'>
+    <%=@word%>
+</div>
+
+<form action= '/words/main' method="get">
+<input type='submit' value='Generate' >
+</form>
