@@ -1,0 +1,20 @@
+<h2>New Product</h2>
+
+<%=flash[:error]%>
+
+
+
+<form action="/products/create" method="post">
+     <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    Name: <input type="text" name="name">
+    Description: <input type="text" name="description">
+    Price: <input type="float" name="pricing">
+    Category: <select name ="product[category]">
+        <% @category.each do |category| %>
+        <option value="<%= category.id %>"> <%=category.name%></option>
+        <% end %>
+    </select>
+    <input type="submit" value="Create">
+</form>
+<br>
+<a href="/"> Back </a>
