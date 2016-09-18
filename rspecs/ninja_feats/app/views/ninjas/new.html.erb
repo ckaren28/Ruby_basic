@@ -1,0 +1,6 @@
+<form method="post" action="/ninjas/create">
+     <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    Name:<input type="text" name="name">
+    Description: <textarea name="description"></textarea>
+    <input type="submit" value="Submit">
+</form>
