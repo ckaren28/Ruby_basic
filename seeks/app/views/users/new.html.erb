@@ -1,0 +1,22 @@
+<h1>Register</h1>
+<%=flash[:errors]%>
+<form action="/users" method="post">
+    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    <p>
+      <label for="email">Email</label>
+      <input type="email" class="form-control" name="Email" placeholder="Enter email">
+    </p>
+    <p>
+      <label for="name">Name</label>
+      <input type="text" class="form-control" name="Name" placeholder="Enter name">
+    </p>
+    <p>
+      <label for="password">Password</label>
+      <input type="password" class="form-control" name="Password" placeholder="Enter password">
+    </p>
+    <p>
+      <label for="password_confirmation">Password Confirmation</label>
+      <input type="password" class="form-control" name="Password Confirmation" placeholder="Confirm Password">
+    </p>
+    <button type="submit" class="btn btn-default">Join</button>
+  </form>

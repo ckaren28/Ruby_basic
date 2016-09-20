@@ -1,0 +1,20 @@
+<h1>Edit Profile</h1>
+<%=flash[:errors]%>
+<form action="/users/<%=@user.id%>" method="post">
+    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    <input name="_method" value="patch" type="hidden">
+    <p>
+      <label for="email">Email</label>
+      <input type="email" class="form-control" name="Email" value="<%=@user.email%>">
+    </p>
+    <p>
+      <label for="name">Name</label>
+      <input type="text" class="form-control" name="Name" value="<%=@user.name%>">
+    </p>
+
+    <button type="submit">Update</button>
+  </form>
+
+<form action="/sessions/new" data-mehtod="delete">
+  <button>Delete Account</button>
+</form>
