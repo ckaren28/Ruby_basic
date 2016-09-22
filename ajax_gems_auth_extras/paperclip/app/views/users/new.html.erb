@@ -1,0 +1,21 @@
+<%= form_for @user, :url => users_path, :html => {:multipart => true} do |f| %>
+  <%= f.label :first_name %>
+  <%= f.text_field :first_name %>
+  <%= f.label :last_name %>
+  <%= f.text_field :last_name %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <%= f.label :avatar %>
+  <%= f.file_field :avatar %>
+  <%= f.submit :submit %>
+<% end %>
+
+<% if @users %>
+  <% @users.each do |user| %>
+    <p>Name: <%= user.first_name %> <%= user.last_name %></p>
+    <p>Email: <%= user.email %></p>
+    <%= image_tag user.avatar.url %>
+    <hr>
+  <% end %>
+<% end %>
+<p><a href="/users/new">Add new</a></p>
