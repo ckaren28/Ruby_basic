@@ -1,0 +1,21 @@
+// Place all the styles related to the Sessions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.login, .register{
+    display: inline-block;
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    vertical-align: top;
+    padding: 10px;
+    margin-left: 10%;
+    text-align: center;
+}
+form{
+    text-align: right;
+    width: 75%;
+
+}
+h1{
+    text-align: center;
+}

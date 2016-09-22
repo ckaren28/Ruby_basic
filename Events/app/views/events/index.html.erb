@@ -1,0 +1,110 @@
+<h2> Welcome <%=@user.first_name%>! </h2>
+<a href="/user/<%=session[:user_id]%>">Edit My Profile</a>
+
+<h3> Here are some of the events at your state </h3>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Host</th>
+        <th>Action/Status</th>
+    </tr>
+    <% for event in @events_in_state %>
+    <tr>
+        <td><a href="/events/<%=event.id%>"><%=event.name%></a></td>
+        <td><%=event.date%></td>
+        <td><%=event.location%></td>
+        <td><%=event.user.first_name%></td>
+        <td>
+            <% joined = event.users %>
+            <% if @user == event.user %>
+                <form action='/events/<%= event.id %>' method='post'>
+                    <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+                    <input type='hidden' name='_method' value='delete'>
+                    <input type='submit' value='Delete'>
+                </form>
+            <% elsif joined.include?(@user) == true %>
+                <form action = '/attendees/<%=event.id%>' method="post">
+                    <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+                    <input type='hidden' name='_method' value='delete'>
+                    <input type='submit' value='Cancel'>
+                </form>
+            <% else %>
+                <form action="/attendees/<%=event.id%>" method='post'>
+                    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+                    <input type="submit" value='Join'>
+                </form>
+            </td>
+        </tr>
+        <% end %>
+    <% end %>
+</table>
+<h3>Here are some of the events in other states:</h3>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>State</th>
+        <th>Host</th>
+        <th>Action</th>
+    </tr>
+    <% for event in @events_not_state %>
+    <tr>
+        <td><a href="/events/<%=event.id%>"><%=event.name%></a></td>
+        <td><%=event.date%></td>
+        <td><%=event.location%></td>
+        <td><%=event.state%></td>
+        <td><%=event.user.first_name%></td>
+        <td>
+            <% joined = event.users %>
+            <% if @user == event.user %>
+                <form action='/events/<%= event.id %>' method='post'>
+                    <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+                    <input type='hidden' name='_method' value='delete'>
+                    <input type='submit' value='Delete'>
+                </form>
+            <% elsif joined.include?(@user) == true %>
+                <form action = '/attendees/<%=event.id%>' method="post">
+                    <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+                    <input type='hidden' name='_method' value='delete'>
+                    <input type='submit' value='Cancel'>
+                </form>
+            <% else %>
+                <form action="/attendees/<%=event.id%>" method='post'>
+                    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+                    <input type="submit" value='Join'>
+                </form>
+            </td>
+        </tr>
+        <% end %>
+    <% end %>
+</table>
+
+
+<div class= "add_event">
+    <h4>Add Event</h4>
+    <%=flash[:errors]%>
+    <form action="/events" method="post">
+        <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+        <p>
+          <label for="first_name">Name</label>
+          <input type="text" class="form-control" name="name" placeholder="Enter name of event">
+        </p>
+        <p>
+            <label for ="date">Date</label>
+            <input type="date" class="form-control" name="date">
+        <p>
+            <label for="location">Location</label>
+            <input type="text" class="form-control"
+            name="location" placeholder="Enter City">
+            <select name = "state">
+                <%for user in @users%>
+                <option value='<%=user.state%>'><%=user.state%> </option>
+                <%end%>
+            </select>
+        </p><button type="submit" class="btn btn-default">Add Event</button>
+    </form>
+</div>

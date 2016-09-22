@@ -4,7 +4,7 @@ RSpec.describe LikesController, type: :controller do
       @user = create_user
       @asecret = @user.secrets.create(content: "secret")
       @like = @user.likes.create(user:@user, secret:@asecret)
-
+      session[:user_id] = @user.id
     end
   describe "when not logged in" do
       before do
@@ -20,18 +20,17 @@ RSpec.describe LikesController, type: :controller do
       delete :destroy, id: @like
     end
   end
+
   describe "when signed in as the wrong user" do
       before do
         @wrong_user = create_user 'julius', 'julius@lakers.com'
-        session[:user_id] = @wrong_user.id
         @secret = @user.secrets.create(content: 'yoyoy')
+
       end
+
       it "will only let the right user create a like" do
-          post :create, id: @like, user_id: @user
-          expect(response).to redirect_to("/users/#{@wrong_user.id}")
-      end
-      it "will only let the right user destroy a like" do
-          delete :destroy, id: @like, user_id: @user
+          current_user = @wrong_user
+          post :create, secret_id: @asecret.id
           expect(response).to redirect_to("/users/#{@wrong_user.id}")
       end
   end

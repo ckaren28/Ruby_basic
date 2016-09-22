@@ -1,0 +1,41 @@
+<h1><%=@event.name%></h1>
+<a href="/events">Events Dashboard</a>
+
+<div class = "info">
+
+    <h3>
+        Host: <%=@event.user.first_name%> <br>
+        Date: <%=@event.date%> <br>
+        Location: <%=@event.location%> <br>
+        People who are joining the event: <%=@count%>
+    </h3><br>
+
+    <table>
+        <tr>
+            <th> Name </th>
+            <th> Location </th>
+            <th> State </th>
+        </tr>
+        <% for user in @users %>
+        <tr>
+            <td><%= user.first_name %> </td>
+            <td><%= user.location %> </td>
+            <td><%= user.state %> </td>
+        </tr>
+        <% end %>
+    </table>
+</div>
+<div class= "comments">
+    <h3>Discussion about this event</h3>
+    <div class= "disc"><% for comment in @comments %>
+        <p><%=comment.user.first_name%> : <%=comment.content%></p>
+        <% end %>
+    </div>
+    Add Comment
+    <form action="/comment" method="post">
+        <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+        <input type="hidden" value="<%=@event.id%>" name="event_id">
+        <textarea rows="4" cols="40" name="comment"></textarea>
+        <input type="submit" value="Submit Comment">
+    </form>
+</div>
