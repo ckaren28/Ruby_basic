@@ -1,0 +1,9 @@
+<% if @users %>
+  <% @users.each do |user| %>
+    <p>Name: <%= user.name %> <%= user.name %></p>
+    <p>Desciption: <%= user.description %></p>
+    <%= image_tag user.image.url %>
+    <hr>
+  <% end %>
+<% end %>
+<p><a href="/users/new">Add new photo</a></p>

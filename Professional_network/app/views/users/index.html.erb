@@ -1,0 +1,47 @@
+<h1> Hi <%=@user.name%> !</h1>
+
+<div class='all'><a href='/users'>All Users</a></div>
+
+<h4>Here is your profile description</h4>
+<div class= 'description'>
+    <%=@user.description%>
+</div>
+
+<h3>Your Professional Network </h3>
+<div class= 'network'>
+    <%for friend in @friends%>
+    <% if friend != @user %>
+    <p>
+        <a href="users/<%=friend.id%>"><%=friend.name%></a>
+    </p>
+    <%end%>
+    <% end %>
+</div>
+
+<h3>Invitations</h3>
+<div class= 'invitations'>
+    <table>
+        <tr>
+            <th> Name </th>
+            <th> Action </th>
+        </tr>
+        <% for invite in @incoming%>
+        <%=invite.user_id.inspect%>
+        <tr>
+            <td> <a href='/users/<%=invite.user_id%>'> <%= invite.user.name %> </a> </td>
+            <td>
+                <form action='/accept/<%=invite.id%>' method="post">
+                    <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+                    <input type="submit" value="Accept Invite">
+                </form>
+                |
+                <form action='/requests/<%=invite.id%>' method="post">
+                    <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+                    <input type='hidden' name='_method' value='delete'>
+                    <input type="submit" value=" Ignore">
+                </form>
+            </td>
+        </tr>
+        <% end %>
+    </table>
+</div>

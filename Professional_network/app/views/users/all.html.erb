@@ -1,0 +1,31 @@
+<div class='home'><a href="/professional_profile"> MyProfile </a></div>
+
+<h3> Users you my want to connect with</h3>
+
+<table class= 'connect'>
+    <tr>
+        <th> Name </th>
+        <th> Action </th>
+    </tr>
+
+
+
+<% blah = @friend_request.flatten %>
+
+    <% for user in @users %>
+
+
+    <% if blah.include?((user.id)) == false and @friends.include?(user) == false %>
+    <tr>
+        <td><a href='/users/<%=user.id%>'><%=user.name%></a></td>
+        <td>
+
+            <form action='/requests/<%=user.id%>' method='post'>
+                <input type='hidden' name='authenticity_token' value='<%= form_authenticity_token %>'>
+                <input type="submit" value='Connect'>
+            </form>
+            <% end %>
+        </td>
+        <% end %>
+    </tr>
+</table>
