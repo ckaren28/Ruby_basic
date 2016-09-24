@@ -11,11 +11,11 @@
 
 
 <% blah = @friend_request.flatten %>
+<%=@friend_request%>
 
     <% for user in @users %>
 
-
-    <% if blah.include?((user.id)) == false and @friends.include?(user) == false %>
+    <% if blah.include?(user.id)== false and @friends.include?(user.id) == false %>
     <tr>
         <td><a href='/users/<%=user.id%>'><%=user.name%></a></td>
         <td>

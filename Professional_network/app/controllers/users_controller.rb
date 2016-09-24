@@ -9,7 +9,7 @@ class UsersController < ApplicationController
 
   def all
       @users = User.where.not(id: session[:user_id])
-      @friend_request = FriendRequest.pluck(:user_id, :friend_id)
+      @friend_request = FriendRequest.pluck(:friend_id)
       @incoming = FriendRequest.where(friend: current_user)
       @user = User.find(session[:user_id])
       @friends = @user.friends
@@ -31,8 +31,15 @@ class UsersController < ApplicationController
 
   def show
       @user = User.find(params[:id])
-
   end
+
+  def destroy
+      friend = User.find(params[:id])
+      no = Friendship.find_by(user: current_user, friend:friend)
+      no.destroy
+      redirect_to :back
+  end
+
 
   private
    def user_params

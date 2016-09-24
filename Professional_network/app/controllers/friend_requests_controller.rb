@@ -24,16 +24,13 @@ class FriendRequestsController < ApplicationController
         # accept request
       @user = User.find(session[:user_id])
       friend = FriendRequest.find(params[:id]).user_id
+      @friend = User.find(friend)
 
-      a = Friendship.new(user: current_user, friend_id: friend)
-      if a.save
+       Friendship.create(user: current_user, friend_id: friend)
+      Friendship.create(user: @friend, friend_id: @user.id)
+
           FriendRequest.find(params[:id]).destroy
           redirect_to '/professional_profile'
-      else
-          render text: "FUCK"
-      end
-
-
 
     end
 
